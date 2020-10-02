@@ -1,0 +1,86 @@
+html {
+        background-color: #fff;
+        padding-top: 20px;
+        color: #040;
+}
+body {
+    padding-top: 10px;
+    width: 60%;
+    background-color: #ddffff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px #888;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.kulso {
+    margin: 25px;
+
+}
+.cim {
+    width: 60%;
+    margin: auto;
+    border: 1px ridge blue;
+    text-align: center;
+    outline: 4px inset #777;
+    outline-offset: 4px;
+    background-color: #adffce;
+
+}
+
+h1 {
+    font-family: 'Monotype Corsiva';
+}
+table {
+    width: 70%;
+    border-spacing: 3px;
+    margin: auto;
+    
+}
+th {
+    background-color: rgb(35, 130, 35);
+}
+td {
+    background-color: #adffce;
+}
+tr:last-of-type td {
+    background-color: rgb(35, 130, 35);
+    height: 5px;
+}
+tr td:last-of-type, th:last-of-type{
+    text-align: right;
+}
+tr td:first-of-type, th:first-child {
+    text-align: center;
+}
+
+tr td:nth-child(2), th:nth-child(2){
+    text-align: right;
+}
+#menu td {
+    background-color: #3db96f;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 5px;
+}
+#menu {
+    outline: 2px outset #777;
+    outline-offset: -1px;
+    margin-top: 20px;
+}
+.uto {
+    float: left;
+    width: 120px;
+    
+}
+.egyeb {
+    margin-top: 20px;
+
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(29, 130, 29)
+}
+a:link {
+    color: rgb(29, 130, 29);
+}
